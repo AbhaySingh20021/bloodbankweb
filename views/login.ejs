@@ -1,0 +1,69 @@
+<script type="module" src="Scripts/profile-script.js" defer></script>
+
+    <%- include("partials/header"); -%>
+
+   
+
+
+
+    <section>
+        <div class="custom">
+            <ul class="custom1">
+              <li class="custom2">
+                <input class="custom3" type="checkbox" />
+                <div class=custom4 >L</div>
+              </li>
+              <li class="custom2">
+                  <input class="custom3" type="checkbox" />
+                  <div class=custom4 >O</div>
+                </li>
+                <li class="custom2">
+                    <input class="custom3" type="checkbox" />
+                    <div class=custom4 >G</div>
+                  </li>
+                  <li class="custom2">
+                      <input class="custom3" type="checkbox" />
+                      <div class=custom4 >I</div>
+                    </li>
+                    <li class="custom2">
+                        <input class="custom3" type="checkbox" />
+                        <div class=custom4 >N</div>
+                      </li>
+              
+              
+             
+            </ul>
+            </div>
+      <div class="container">
+        
+        <form id="loginF" class="login-form" action="" method="POST">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input required  type="email" name="email" id="email"placeholder="Enter email" />
+          </div>
+          <div class="form-group">
+            <label for="">Password</label>
+            <input required  type="password" name="password" id="password" placeholder="Enter password" />
+            <span class="" style="background: white; font-size: 80%;">
+              <a class="small" href="/forget">Forgot password?</a>
+            </span>
+          </div>
+          <div class="signup-redirect">
+            <a href="/signup"><span>Create an account</span></a>
+          </div>
+          <button type="submit" class="submit-btn btn" id="submit-btn">
+            Login
+          </button>
+        </form>
+      </div>
+    </section>
+    
+
+    <script type="module" src="Scripts/login-script.js"></script>
+    <link rel="stylesheet" href="css/login-css.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script type="module" src="Scripts/appointment-script.js" defer ></script>
+
+
+    <script src="/Scripts/index-script.js"></script>
